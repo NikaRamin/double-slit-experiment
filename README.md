@@ -21,6 +21,16 @@ The main output of the script is a visualization that directly compares the resu
 * **Left Panel (Scenario 1: Interference):** This shows the outcome when the particle's path is not observed. It behaves like a wave, creating a predictable interference pattern. The result is consistently '0', representing constructive interference at a central point.
 * **Right Panel (Scenario 2: Observer Effect):** This shows the outcome when we "measure" which slit the particle passes through. The act of observation forces the particle to behave like a classical particle, destroying the interference pattern. The result is a random 50/50 split between '0' and '1', indicating the loss of wave-like behavior.
 
+**A common question is**: how does a bar chart show wave behavior? The diagram doesn't visualize the waves themselves, but rather their **statistical effect**, which is the key evidence.
+
+* In a physical experiment, interfering waves create a pattern of bright and dark bands on a screen. The center band is the brightest due to **constructive interference**.
+* In our simulation, we map this physical screen to our qubit's measurement outcomes:
+    * **Outcome `0`** represents the central bright band.
+    * **Outcome `1`** represents a dark band where waves should cancel out.
+* Therefore, the fact that the left panel shows a 100% result of `0` means the particle is *always* found in the location of constructive interference. This perfectly predictable, non-random pattern is the "smoking gun" of wave behavior. The single bar *is* the interference pattern in its simplest statistical form.
+
+### Interpretation of the Diagram
+
 ***
 
 ## ⚙️ Setup and Installation
