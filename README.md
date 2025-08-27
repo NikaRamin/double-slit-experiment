@@ -29,8 +29,6 @@ The main output of the script is a visualization that directly compares the resu
     * **Outcome `1`** represents a dark band where waves should cancel out.
 * Therefore, the fact that the left panel shows a 100% result of `0` means the particle is *always* found in the location of constructive interference. This perfectly predictable, non-random pattern is the "smoking gun" of wave behavior. The single bar *is* the interference pattern in its simplest statistical form.
 
-### Interpretation of the Diagram
-
 ***
 
 ## ⚙️ Setup and Installation
